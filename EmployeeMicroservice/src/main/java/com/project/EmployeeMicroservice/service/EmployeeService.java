@@ -3,13 +3,12 @@ package com.project.EmployeeMicroservice.service;
 import com.project.EmployeeMicroservice.dto.EmployeeRequest;
 import com.project.EmployeeMicroservice.entity.Employee;
 import com.project.EmployeeMicroservice.repository.EmployeeRepository;
-import com.project.EmployeeMicroservice.response.EmployeeResponse;
-import org.modelmapper.ModelMapper;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
+
 
 @Service
 public class EmployeeService {

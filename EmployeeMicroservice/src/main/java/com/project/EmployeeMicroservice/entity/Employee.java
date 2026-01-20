@@ -1,7 +1,7 @@
 package com.project.EmployeeMicroservice.entity;
 
 import jakarta.persistence.*;
-import lombok.*;
+
 @Entity
 @Table(name = "employee")
 public class Employee {
